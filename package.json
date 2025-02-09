@@ -1,0 +1,6 @@
+{
+  "name": "stylelint-oi-nuxt-rules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module"
+}

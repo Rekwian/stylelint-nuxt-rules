@@ -1,8 +1,8 @@
-# stylelint-oi-nuxt-rules
+# stylelint-nuxt-rules
 
 ## Description
 
-`stylelint-oi-nuxt-rules` est un ensemble de règles Stylelint conçu pour les projets Nuxt.js, prenant en charge SCSS et Vue. Il intègre des bonnes pratiques et des règles de structuration adaptées pour un développement efficace et cohérent.
+`stylelint-nuxt-rules` est un ensemble de règles Stylelint conçu pour les projets Nuxt.js, prenant en charge SCSS et Vue. Il intègre des bonnes pratiques et des règles de structuration adaptées pour un développement efficace et cohérent.
 
 ---
 
@@ -10,10 +10,10 @@
 
 ### Étape 1 : Pré-requis
 
-Avant d'utiliser `stylelint-oi-nuxt-rules`, installez les dépendances nécessaires :
+Avant d'utiliser `stylelint-nuxt-rules`, installez les dépendances nécessaires :
 
 ```bash
-npm install stylelint stylelint-config-standard-scss stylelint-config-recommended-scss stylelint-config-recommended-vue stylelint-order --save-dev
+bun add stylelint stylelint-config-standard-scss stylelint-config-recommended-scss stylelint-config-recommended-vue stylelint-order -D
 ```
 
 ### Étape 2 : Installer `stylelint-oi-nuxt-rules`
@@ -21,7 +21,7 @@ npm install stylelint stylelint-config-standard-scss stylelint-config-recommende
 Ajoutez la dépendance à votre projet :
 
 ```bash
-npm install git+ssh://git@bitbucket.org:proprietes-privees/stylelint-oi-nuxt-rules.git --save-dev
+bun add github:Rekwian/stylelint-nuxt-rules -D
 ```
 
 ---
@@ -33,7 +33,7 @@ Créez un fichier stylelint.config.js à la racine de votre projet (ou modifiez-
 ```javascript
 export default {
   extends: [
-    'stylelint-oi-nuxt-rules',
+    'stylelint-nuxt-rules',
   ],
 };
 ```
